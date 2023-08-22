@@ -60,6 +60,7 @@ body {
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
 }
 #navbar{
     display: flex;
@@ -83,6 +84,7 @@ body {
 #navbar li a.active{
     color: #088178;
 }
+
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
@@ -92,4 +94,34 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+/*Home page*/
+#hero {
+    background-image: url("..//Canva-Ecommerce/img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#hero h4 {
+    padding-bottom: 15px;
+}
+#hero h1 {
+    color: #088178;
+}
+#hero button{
+    background-image: url("../Canva-Ecommerce/img/button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 88px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
 }
