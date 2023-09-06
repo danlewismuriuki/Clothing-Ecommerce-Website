@@ -125,6 +125,9 @@ body {
     display: none;
     align-items: center;
 }
+/*#close{
+    display: none;
+}*/
 /*Home page*/
 #hero {
     background-image: url("..//Canva-Ecommerce/img/hero4.png");
@@ -508,9 +511,12 @@ footer .copyright{
     }
     #close{
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 10px;
+        left: 150px;
         color: #222;
         font-size: 24px;
+    }
+    #lg-bag{
+        display: initial;
     }
 }
