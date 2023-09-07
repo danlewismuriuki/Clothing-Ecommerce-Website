@@ -510,15 +510,16 @@ footer .copyright{
         padding-left: 20px;
     }
     #close{
+        display: initial;
         position: absolute;
-        top: 10px;
-        left: 30px;
+        top: 0px;
+        left: 90px;
         color: #222;
         font-size: 24px;
     }
     #lg-bag{
-        display: initial;
-    }
+        display: none;
+        }
     #hero {
         height: 50vh;
         padding: 0 80px;
